@@ -90,12 +90,13 @@ void main()
 	m1.print();
 
 	// Test square Matrix 
-	matrix m1 = matrix(4,"square");
+	cout << endl;
+	matrix m2 = matrix(4,"square");
 	cout << "First Matrix : " << endl;
-	m1.print();
+	m2.print();
 	cout << endl << "Transposed Matrix : " << endl;
-	m1.transpose();
-	m1.print();
+	m2.transpose();
+	m2.print();
 
 	// stay in console
 	int stay;
